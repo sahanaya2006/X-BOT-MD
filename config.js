@@ -7,9 +7,9 @@ if (fs.existsSync('config.env')) {
   });
 }
 
-const HANDLERS = process.env.HANDLER === "false" || "^";
-const SESSION_ID = process.env.SESSION_ID || "";
-const SUDO = process.env.SUDO || '917012984396';
+const HANDLERS = process.env.HANDLER === "true" || "^";
+const SESSION_ID = process.env.SESSION_ID || "X-BOT-MD:OpeningBlizzard";
+const SUDO = process.env.SUDO || '94720797915';
 const AUTO_STATUS_VIEW = process.env.AUTO_STATUS_VIEW || "true";
 const ALWAYS_ONLINE = process.env.ALWAYS_ONLINE || "true";
 const BOT_INFO = process.env.BOT_INFO || "X-BOT-MD;ASWIN SPARKY;https://i.imgur.com/r3GZeiX.jpeg";
@@ -18,9 +18,8 @@ const AUDIO_DATA = process.env.AUDIO_DATA || "X BOT MD;ASWIN SPARKY;https://i.im
 const STICKER_DATA = process.env.STICKER_DATA || "X BOT MD;ASWIN SPARKY";
 const WORK_TYPE = process.env.WORK_TYPE || 'public';
 const DATABASE_URL = process.env.DATABASE_URL || "./lib/database.db";
-const HEROKU_APP_NAME = process.env.HEROKU_APP_NAME || "";
-const HEROKU_API_KEY = process.env.HEROKU_API_KEY || "";
-
+const HEROKU_APP_NAME = process.env.HEROKU_APP_NAME || "xbotmd2006";
+const HEROKU_API_KEY = process.env.HEROKU_API_KEY || "HRKU-cf8379f7-4631-4067-a71b-bcdafc28fd94";
 
 module.exports = {
   HANDLERS,
